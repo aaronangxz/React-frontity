@@ -2,43 +2,14 @@
   "errors": [],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "41eaa12b732a82d85349",
+  "hash": "f5d57116ae43b2ec9b40",
   "publicPath": "/static/",
   "outputPath": "/Users/xuanze/react-blog/build/static",
   "assetsByChunkName": {
-    "react-blog": [
-      "react-blog.module.js",
-      "react-blog.9979db6c8d43f09512dc.hot-update.js"
-    ],
+    "react-blog": "react-blog.module.js",
     "vendors~list": "vendors~list.module.js"
   },
   "assets": [
-    {
-      "name": "9979db6c8d43f09512dc.hot-update.json",
-      "size": 52,
-      "chunks": [],
-      "chunkNames": [],
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "react-blog.9979db6c8d43f09512dc.hot-update.js",
-      "size": 15659,
-      "chunks": [
-        "react-blog"
-      ],
-      "chunkNames": [
-        "react-blog"
-      ],
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true
-      },
-      "emitted": false
-    },
     {
       "name": "react-blog.module.js",
       "size": 7070589,
@@ -71,8 +42,7 @@
         "react-blog"
       ],
       "assets": [
-        "react-blog.module.js",
-        "react-blog.9979db6c8d43f09512dc.hot-update.js"
+        "react-blog.module.js"
       ],
       "children": {},
       "childAssets": {}
@@ -84,8 +54,7 @@
         "react-blog"
       ],
       "assets": [
-        "react-blog.module.js",
-        "react-blog.9979db6c8d43f09512dc.hot-update.js"
+        "react-blog.module.js"
       ],
       "children": {},
       "childAssets": {}
@@ -112,8 +81,7 @@
         "react-blog"
       ],
       "files": [
-        "react-blog.module.js",
-        "react-blog.9979db6c8d43f09512dc.hot-update.js"
+        "react-blog.module.js"
       ],
       "hash": "4cdfd583732be3d59d37",
       "siblings": [],
@@ -128,7 +96,7 @@
     },
     {
       "id": "vendors~list",
-      "rendered": false,
+      "rendered": true,
       "initial": false,
       "entry": false,
       "reason": "split chunk (cache group: vendors) (name: vendors~list)",

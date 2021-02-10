@@ -18,6 +18,10 @@ const settings = {
               "/blog/"
             ],
             [
+            "Resume",
+            "/resume/"
+          ],
+            [
               "About",
               "/about/"
             ]
