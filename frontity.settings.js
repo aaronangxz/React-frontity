@@ -3,7 +3,7 @@ const settings = {
   "state": {
     "frontity": {
       "url": "https://test.frontity.org",
-      "title": "Hi, I'm Aaron",
+      "title": "Aaron Ang",
       "description": "My journey to tech."
     }
   },
@@ -14,12 +14,8 @@ const settings = {
         "theme": {
           "menu": [
             [
-              "Home",
-              "/"
-            ],
-            [
               "Blog",
-              "/blog"
+              "/blog/"
             ],
             [
               "About",
@@ -37,7 +33,8 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "url": "https://omwtotech.wordpress.com/"
+          "url": "https://omwtotech.wordpress.com/",
+          "homepage" : "/home/"
         }
       }
     },

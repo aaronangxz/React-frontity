@@ -1,0 +1,163 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.46.0",
+  "hash": "41eaa12b732a82d85349",
+  "publicPath": "/static/",
+  "outputPath": "/Users/xuanze/react-blog/build/static",
+  "assetsByChunkName": {
+    "react-blog": [
+      "react-blog.module.js",
+      "react-blog.9979db6c8d43f09512dc.hot-update.js"
+    ],
+    "vendors~list": "vendors~list.module.js"
+  },
+  "assets": [
+    {
+      "name": "9979db6c8d43f09512dc.hot-update.json",
+      "size": 52,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "react-blog.9979db6c8d43f09512dc.hot-update.js",
+      "size": 15659,
+      "chunks": [
+        "react-blog"
+      ],
+      "chunkNames": [
+        "react-blog"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "react-blog.module.js",
+      "size": 7070589,
+      "chunks": [
+        "react-blog"
+      ],
+      "chunkNames": [
+        "react-blog"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "vendors~list.module.js",
+      "size": 116920,
+      "chunks": [
+        "vendors~list"
+      ],
+      "chunkNames": [
+        "vendors~list"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "react-blog": {
+      "chunks": [
+        "react-blog"
+      ],
+      "assets": [
+        "react-blog.module.js",
+        "react-blog.9979db6c8d43f09512dc.hot-update.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "react-blog": {
+      "chunks": [
+        "react-blog"
+      ],
+      "assets": [
+        "react-blog.module.js",
+        "react-blog.9979db6c8d43f09512dc.hot-update.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "list": {
+      "chunks": [
+        "vendors~list"
+      ],
+      "assets": [
+        "vendors~list.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": "react-blog",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 1973392,
+      "names": [
+        "react-blog"
+      ],
+      "files": [
+        "react-blog.module.js",
+        "react-blog.9979db6c8d43f09512dc.hot-update.js"
+      ],
+      "hash": "4cdfd583732be3d59d37",
+      "siblings": [],
+      "parents": [],
+      "children": [
+        "vendors~list"
+      ],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    },
+    {
+      "id": "vendors~list",
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "reason": "split chunk (cache group: vendors) (name: vendors~list)",
+      "size": 86898,
+      "names": [
+        "vendors~list"
+      ],
+      "files": [
+        "vendors~list.module.js"
+      ],
+      "hash": "649c41407914b3f2f2d1",
+      "siblings": [],
+      "parents": [
+        "react-blog"
+      ],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    }
+  ],
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": [],
+  "generator": "loadable-components"
+}
