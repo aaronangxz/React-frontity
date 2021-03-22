@@ -6,7 +6,7 @@ const settings = {
       "title": "Aaron Ang",
       "description": "My journey to tech."
     }
-  },
+  }, 
   "packages": [
     {
       "name": "@awsmin/f1",

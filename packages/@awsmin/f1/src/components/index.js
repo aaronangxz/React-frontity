@@ -14,12 +14,15 @@ import PageError from "./page-error";
 import BootstrapCss from './styles/bootstrap.css';
 import gutenbergStyle from "./styles/gutenberg/style.css";
 import gutenbergTheme from "./styles/gutenberg/theme.css";
+import ReactGA from "react-ga";
 
 /**
  * Theme is the root React component of our theme. The one we will export
  * in roots.
  */
-const Theme = ({ state }) => {
+const Theme = ({ state, libraries, actions }) => {
+  // ReactGA.initialize("UA-123456789-1");
+  // ReactGA.pageview(state.router.link);
   // Get information about the current URL.
   const data = state.source.get(state.router.link);
 
