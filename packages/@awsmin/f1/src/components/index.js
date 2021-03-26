@@ -33,6 +33,15 @@ const Theme = ({ state, libraries, actions }) => {
       <Head>
         <meta name="description" content={state.frontity.description} />
         <html lang="en" />
+        {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-9Y9RRZ7ZLB"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)}
+          gtag('js', new Date());
+
+          gtag('config', 'G-9Y9RRZ7ZLB');
+        </script>
       </Head>
 
       {/* Add some global styles for the whole site, like body or a's. 
