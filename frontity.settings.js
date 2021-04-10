@@ -20,7 +20,11 @@ const settings = {
             [
             "Resume",
             "/resume/"
-          ],
+            ],
+            [
+              "Projects",
+              "/projects/"
+            ],
             [
               "About",
               "/about/"
